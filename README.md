@@ -1,5 +1,5 @@
 # Project-sqlDevelopers
-#Sql-practice
+Sql-practice
 ---
 Create table Developers
 ```Sql
