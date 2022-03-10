@@ -1,7 +1,7 @@
 # Project-sqlDevelopers
 #Sql-practice
 ---
-#Create table Developers
+Create table Developers
 ```Sql
 CREATE TABLE developers
 (
@@ -14,7 +14,7 @@ CREATE TABLE developers
 );
 ```
 ---
-#Adding information
+Adding information
 ```sql
 INSERT INTO developers (id, name, job, age, salary, start_work)
 VALUES(1,'Vasya','IOS developer',27,2950.45,'2015-04-18')
@@ -42,7 +42,7 @@ VALUES (8, 'Vladimir', 'Php developer', 18, '2023-01-02')
 )
 ```
 ---
-#Requests
+Requests
 ```Sql
 SELECT * FROM developers WHERE job = 'Java developer' AND salary > 3000;
 
